@@ -36,3 +36,5 @@ def get_restaurantes(restaurante: str = Query(None)):
 
     else:
         return {'Erro':f'{response.status_code} - {response.text}'}
+    
+print('teste nova branch')
